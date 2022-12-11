@@ -22,6 +22,7 @@ function Content({ data, handleOnChange, EmitChangeDate }: ContentProp) {
         new Date(date.setHours(time.getHours(), time.getMinutes()))
       );
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [date, time]);
 
   return (
