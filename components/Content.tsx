@@ -51,7 +51,7 @@ function Content({ data, handleOnChange, EmitChangeDate }: ContentProp) {
                 selected={date}
                 onChange={(date: Date) => setDate(date)}
                 className="outline-none py-0 px-[3px] rounded-lg h-10 font-semibold text-xl max-w-[210px]"
-                placeholder="Date"
+                placeholderText="Date"
               />
             </div>
             <div className="flex">
@@ -71,7 +71,7 @@ function Content({ data, handleOnChange, EmitChangeDate }: ContentProp) {
                 timeIntervals={15}
                 timeCaption="Time"
                 dateFormat="h:mm aa"
-                placeholder="Time"
+                placeholderText="Time"
               />
             </div>
           </div>
